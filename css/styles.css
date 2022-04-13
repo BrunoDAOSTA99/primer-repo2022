@@ -1,0 +1,326 @@
+
+
+body
+{
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+h1
+{
+
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.logoprincipal
+{
+background-color: red;
+    text-align: left ;
+    padding: 10px;
+   text-align: center;
+    
+}
+
+.logoprincipal2
+{
+text-align: left;
+float: left;
+
+}
+
+
+.fondo1
+{
+    background-color: red;
+}
+
+
+section {
+    background-color: yellow;
+}
+
+.section2{
+    background-color: white;
+}
+
+
+header{
+    background-color: red;
+    text-align: center;
+
+}
+
+.marvel1
+{
+    text-align: center ;
+    padding: 10px;
+   
+}
+
+
+.marvel3
+{
+    background-color: brown;
+    text-align: center;
+}
+
+.coloramarillo
+{
+    background-color: yellow;
+}
+
+
+.card1
+{
+
+    width: 16%;
+   margin-left: 5%; 
+   margin-top: 5%;
+   padding: 80px;
+   
+}
+
+
+.card2
+{
+
+width: 16%;
+margin-top: 5%;
+margin-left: 5%;
+padding: 80px;
+
+}
+
+.card12
+{
+    
+width: 16%;
+margin-top: 5%;
+margin-left: 5%;
+padding: 80px;
+}
+
+
+.unicamente {
+    font-size: 17px;
+    display: inline-block;
+    text-align:center;
+    background-color: yellow;
+    font-weight: bold;
+    font-family: initial;
+width: 150px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.texto1
+{
+    padding: 10px;
+}
+
+#card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card3
+{
+background-color:yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card4
+{
+background-color:yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card5
+{
+background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card6
+{
+background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card7
+{
+background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card8
+{
+background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card9
+{
+background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+
+}
+
+.card10
+{
+    background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+}
+
+.card11
+{
+    background-color: yellow;
+    width: 16%;
+   margin-left: 10%; 
+   margin-top: 1%;
+   padding: 10px;
+}
+
+.comic1
+{
+    text-align: center;
+}
+
+#card-flex2
+{
+    display: flex;
+    padding: 30px;
+    margin-left: 5%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.border{
+    border: 0px solid black;
+}
+
+nav{
+    grid-area: nav;
+    
+    text-align: center;
+}
+
+section#info{
+
+grid-area: info;
+
+}
+
+
+#padre
+{
+    justify-content:center;
+    
+    display: grid;
+    width: 113%;
+    grid-template-columns: 12%;
+    grid-column-gap: 0px ;
+    grid-template-rows: 603px;
+    grid-row-gap: 50px;
+text-align: center;
+
+}
+  
+#padre div{
+    border: solid 5px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: red;
+    text-align: center;
+margin-top: 100%;
+
+}
+
+@media (max-width:767px){
+    #grilla{
+        
+    display: grid;
+    grid-template-areas: 
+
+    "info"
+    "imagen"
+}
+
+}
+
+#grilla
+
+{
+    display: grid;
+grid-template-areas: 
+
+"nav info informacion"
+"nav imagen imagen"
+
+;
+column-gap: 30px;
+row-gap: 0px;
+grid-template-rows: auto;
+grid-template-columns: 38% auto 0%;
+grid-auto-columns: 10px;
+}
+
+@media (max-width: 768px)
+{
+    #card-flex2
+
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+   
+
